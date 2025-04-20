@@ -1,0 +1,214 @@
+.main{
+display: flex;
+justify-content: center;
+    background-color:rgb(20, 15, 9);
+}
+#container{
+     display:flex; 
+    justify-content :space-between;
+    align-items: center;
+    width: 100%;
+    height:70px
+  }
+.foodpanda{
+    margin:0;
+    font-style: italic;
+    color: white;
+    
+}
+.nav{
+    display:flex
+}
+
+
+#username{
+    background-color:rgba(132, 40, 218, 0.226);
+    border:0    ;
+    border-radius: 8px;
+    height: 30px;
+    
+}
+
+#semail{
+    background-color:rgba(132, 40, 218, 0.226);
+color: black;
+    border:0    ;
+    border-radius: 8px;
+    height: 30px;
+}
+#spass{
+    background-color:rgba(132, 40, 218, 0.226);
+    border:0    ;
+    border-radius: 8px;
+    height: 30px;
+
+}
+
+#content{
+
+    background-color:rgba(237, 237, 237, 0.974);
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+    
+    
+#signup{
+    background-color: rgb(104, 29, 173);
+    border: 0;
+    border-radius: 19px;
+    width: 70%;
+    height: 30px;
+}
+#google{
+    background-color: white;
+    border-radius: 19px;
+    border-color: purple;
+    color: blueviolet   ;
+    border-style:solid;
+    width: 70%;
+    height: 30px;
+    
+}
+.con{
+    font-family: Arial, sans-serif;
+  background-image: url(https://wallpapercave.com/wp/wp2481246.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+#signin{
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+#lemail{
+    background-color:rgba(132, 40, 218, 0.226);
+    border:0    ;
+    border-radius: 8px;
+    height: 30px;
+}
+#lpass{
+    background-color:rgba(132, 40, 218, 0.226);
+    border:0    ;
+    border-radius: 8px;
+    height: 30px;
+}
+
+#login{
+    background-color: blueviolet;
+    border: 0;
+    border-radius: 19px;
+    width: 70%;
+    height: 30px;
+} 
+.abc:hover{
+    
+    transform: scale(1.2);
+    transition: 3s;
+    box-shadow: 0px 0px 5px black;
+    
+}
+.abc{
+    background-color:rgb(224, 207, 207);
+    border: 0px;
+    width: 15%;
+    height: 50px;
+    border-radius: 9px;
+}
+.mnb{
+    display: flex;
+    background-color:rgba(237, 237, 237, 0.974);
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.zxc{
+    width:15%;
+    height: 25px;
+    border:0px;
+    background-color: cadetblue;
+}
+.dashboard{
+    background: linear-gradient(135deg, #da718d, #b0867f);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      padding: 20px;
+
+}
+.containers{
+    background-color: rgb(243, 239, 239);
+    backdrop-filter: blur(15px);
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0px 12px 40px rgba(0,0,0,0.3);
+    text-align: center;
+    width:100%;
+    max-width: 450px;
+    transition: all 0.3s ease-in-out;
+}
+.containers:hover {
+    transform: scale(1.05);
+  }
+.heading{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #db4545;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+.btnd{
+    width: 80%;
+    max-width: 300px;
+    margin: 15px auto;
+    padding: 14px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 30px;
+    border: none;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.btnd:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+    .user{
+    background-color: #8e515f;
+    color: white;
+}
+.admin{
+    background-color: #372b29;
+    color: white;
+}
+.btnd i {
+    font-size: 1.5rem;
+    transition: 0.2s;
+  }
+.btnd:hover i {
+    transform: scale(1.1);
+  }

@@ -47,6 +47,7 @@ color: black;
 #content{
 
     background-color:rgba(237, 237, 237, 0.974);
+
     width: 100%;
     max-width: 400px;
     height: auto;
@@ -55,13 +56,18 @@ color: black;
     box-sizing: border-box;
 }
     
-    
+    #signup,
+#google,
+#login {
+    height: 30px; /* Added for consistency */
+}
 #signup{
     background-color: rgb(104, 29, 173);
     border: 0;
     border-radius: 19px;
     width: 70%;
     height: 30px;
+    color: white;
 }
 #google{
     background-color: white;
@@ -110,6 +116,7 @@ color: black;
 
 #login{
     background-color: blueviolet;
+ color: white;
     border: 0;
     border-radius: 19px;
     width: 70%;
@@ -211,4 +218,8 @@ color: black;
   }
 .btnd:hover i {
     transform: scale(1.1);
+  }
+  .logout{
+    background-color: #7a1c32;
+    color: white;
   }

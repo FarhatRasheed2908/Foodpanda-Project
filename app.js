@@ -3,13 +3,8 @@
               import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, updateDoc, deleteField } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js";
 
               const firebaseConfig = {
-                apiKey: "AIzaSyC6pr5WtpJspCSoyNkbC3ZCLsQK5sT19m8",
-                authDomain: "foodpanda-ebe8e.firebaseapp.com",
-                projectId: "foodpanda-ebe8e",
-                storageBucket: "foodpanda-ebe8e.firebasestorage.app",
-                messagingSenderId: "122142660166",
-                appId: "1:122142660166:web:085ee15b2b53c5e09c5c47",
-                measurementId: "G-X2XBFY6P0B"
+                
+                {apni apni API Key lagao}
               };
 
               const app = initializeApp(firebaseConfig);
